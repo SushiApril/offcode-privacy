@@ -1,34 +1,27 @@
-Privacy Policy for OffCode
-Effective Date: April 29, 2025
+# OffCode Privacy Policy
 
-OffCode ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our macOS application.
+Updated October 12, 2026
 
-1. Information We Do Not Collect
-OffCode does not collect, store, or transmit any personal data. All activities performed within the app remain on your device. Specifically:
+OffCode is an offline coding-practice app for macOS. It does not require an account and does not include advertising, tracking, or usage analytics.
 
-We do not collect names, email addresses, IP addresses, or any identifying information.
+## Data on your Mac
 
-We do not access or upload files, documents, or user input.
+OffCode stores solved-problem progress in a local `progress.json` file. Editor text is not retained as a saved draft when you leave a problem or change languages. Running a solution creates temporary local files, which are removed after a completed run.
 
-We do not use analytics or tracking services.
+OffCode does not send your solutions or progress to a server for execution or storage.
 
-2. Local Storage
-All user-generated content (such as code solutions, test cases, or settings) is stored locally on your device and is not shared externally.
+## Code you run
 
-3. No Third-Party Integrations
-OffCode operates entirely offline. The app does not integrate with or share data with any third-party services or APIs.
+Python solutions run locally using a bundled interpreter. Go solutions compile locally and run through WebAssembly in the App Store version. Your code may access files or services that macOS permits it to access. This policy describes OffCode's own data practices; actions performed by code you choose to run depend on that code.
 
-4. Children’s Privacy
-OffCode is not intended for use by children under the age of 13. We do not knowingly collect any personal information from children.
+## Removing local data
 
-5. Security
-Since OffCode does not transmit data over the internet or store user data on servers, there is no risk of data breach through network transmission. However, it is the user's responsibility to protect local files using macOS' built-in security mechanisms (e.g., disk encryption, user access control).
+You can remove saved progress by deleting OffCode's `progress.json` file from its Application Support folder. For the Mac App Store version, that folder is inside OffCode's sandbox container under your user Library. Removing the app alone may leave local progress on your Mac.
 
-6. Changes to This Policy
-We may update this Privacy Policy if necessary for legal or operational reasons. Any changes will be posted within the app or on our website (if applicable).
+## Support
 
-7. Contact Us
-If you have any questions about this Privacy Policy, please contact us at:
+For questions or support, use the [OffCode support issues page](https://github.com/SushiApril/offcode-privacy/issues). GitHub issues are public. Information you choose to submit there is handled by GitHub under [GitHub's privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
-📧 Email: support@offcode.app
+## Policy updates
 
+Updates to this policy will be published on this page with a revised date.
