@@ -1,6 +1,6 @@
 # Stackmaxxing Privacy Policy
 
-Updated November 5, 2026. Applies to Stackmaxxing version 1.0.0, developed by Sushant Gupta.
+Updated November 25, 2026. Applies to Stackmaxxing, developed by Sushant Gupta. Version 1.0.4 adds the local player statistics described below.
 
 ## Data collection
 
@@ -8,7 +8,7 @@ Stackmaxxing does not collect or transmit personal data, gameplay activity, or d
 
 ## On-device storage
 
-Your best score, appearance selections, and sound and haptic preferences are stored on your device. Stackmaxxing does not provide its own cloud synchronization. Device backups are managed by Apple according to your device settings. Deleting the app removes its local app data; restoring a device backup may restore that data.
+Your best score, player statistics (games, scores, perfect placements, power-up pickups, and boss defeats), appearance selections, and sound and haptic preferences are stored on your device. Stackmaxxing does not provide its own cloud synchronization. Device backups are managed by Apple according to your device settings. Deleting the app removes its local app data; restoring a device backup may restore that data.
 
 ## Purchases and access
 
